@@ -1,3 +1,18 @@
 #header-img {
+    max-width: 50px;
+    height: auto;
+}
 
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar ul{
+    list-style: none;
+
+}
+
+.company_name {
+    
 }
