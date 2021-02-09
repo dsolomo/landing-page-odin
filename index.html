@@ -15,26 +15,90 @@
             <ul>
                 <li class="nav-link company-name">MonaBot</li>
                 <li class="nav-link"><a href="#">Features</a></li>
-                <li class="nav-link"><a href="#video">How It Works</a></li>
-                <li class="nav-link"><a href="#submit">Pricing</a></li>
+                <li class="nav-link"><a href="#">How It Works</a></li>
+                <li class="nav-link"><a href="#">Pricing</a></li>
             </ul>    
         </nav>
     </header>
 
     <body>
-        
         <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <h1>Handcrafted, home-made masterpieces</h1>
             <label for="sign-up">
                 <input type="email" name="sign-up" id="email" placeholder="Enter your email address">    
             </label>
+        </br>
             <label for="submit">
                 <input type="submit" value="Submit" id="submit" name="submit">
             </label>
         </form>
-
-        <video src="#" id="video"></video>
-    
+        <section id="Features">
+            <div id="materials">
+                <h2><ion-icon name="bonfire"></ion-icon> Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally.
+                     This will increase the longevity of your purchase.</p>
+            </div>
+            <div id="shipping">
+                <h2><ion-icon name="airplane"></ion-icon> Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. 
+                    We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div id="quality">
+                <h2><ion-icon name="battery-charging"></ion-icon> Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages
+                    or faults and we will check and test the pitch of your instrument.</p>
+            </div> 
+        </section>                           
+        <section id="how-it-works">
+            <video src="https://www.youtube.com/watch?v=y8Yv4pnO7qc&ab_channel=TheUnitedStatesArmyFieldBand" id="video" controls></video>
+        </section>
+        <section id="Pricing">
+            <div id="tenor">
+                <h3 price-name>Tenor Trombone</h3>
+                <ul>
+                    <li price-amount>$600.<span id="cents">00</span> </li>
+                    <li price-feature-1>Lorem ipsum dolor sit</li>
+                    <li price-feature-2>Lorem ipsum dolor sit</li>
+                    <li price-feature-3>Lorem ipsum dolor sit</li>
+                    <li price-feature-4>Lorem ipsum dolor sit</li>
+                </ul>
+                <button type="submit" id="select-tenor">Select</button>
+            </div>
+            <div id="bass">
+                <h3 price-name>Bass Trombone</h3>
+                <ul>
+                    <li price-amount>$900.<span id="cents">00</span> </li>
+                    <li price-feature-1>Lorem ipsum dolor sit</li>
+                    <li price-feature-2>Lorem ipsum dolor sit</li>
+                    <li price-feature-3>Lorem ipsum dolor sit</li>
+                    <li price-feature-4>Lorem ipsum dolor sit</li>
+                </ul>
+                <button type="submit" id="select-bass">Select</button>
+            </div>
+            <div id="valve">
+                <h3 price-name>Valve Trombone</h3>
+                <ul>
+                    <li price-amount>$1,200.<span id="cents">00</span> </li>
+                    <li price-feature-1>Lorem ipsum dolor sit</li>
+                    <li price-feature-2>Lorem ipsum dolor sit</li>
+                    <li price-feature-3>Lorem ipsum dolor sit</li>
+                    <li price-feature-4>Lorem ipsum dolor sit</li>
+                </ul>
+                <button type="submit" id="select-valve">Select</button>
+            </div>
+        </section>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     </body>
+    <footer>
+        <ul>
+            <li id="contact-me">Contact</li>
+        </ul>
+        <p id="copyright">Copyright &copy; 2021 MonaBot Co. All Rights Reserved</p>
+        <ul>
+            <li id="privacy">Privacy</li>
+            <li id="terms">Terms</li>
+        </ul>
+    </footer>
 </main>
 
 
