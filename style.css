@@ -25,6 +25,12 @@
     margin-right: 20px;
 }
 
+.price-option {
+    border: 1px solid black;
+    max-width: 33%;
+    display: inline-block;
+
+}
 #pricing ul {
     list-style: none;
 }
